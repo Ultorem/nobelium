@@ -1,9 +1,9 @@
 const BLOG = {
-  title: "FISKJA",
+  title: "Fiskja",
   author: "Fiskja.com",
   email: "fiskja-kontakt@gmail.com",
   link: "https://fiskja.com",
-  description: "Sikre deg de beste fisketipsene på nettet!",
+  description: "Sikre deg de beste tipsene på nettet!",
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: "CET", // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: "light", // ['light', 'dark', 'auto'],
