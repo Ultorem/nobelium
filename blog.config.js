@@ -1,9 +1,9 @@
 const BLOG = {
-  title: "Alkjøp",
-  author: "Alkjøp.no",
-  email: "hello@alkjop.no",
-  link: "https://alkjop.no",
-  description: "Sikre deg det beste innen tech!",
+  title: "Fiskja",
+  author: "Fiskja.com",
+  email: "fiskja-kontakt@gmail.com",
+  link: "https://fiskja.com",
+  description: "Sikre deg de beste tipsene på nettet!",
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: "CET", // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: "light", // ['light', 'dark', 'auto'],
@@ -18,7 +18,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: "https://og-image-craigary.vercel.app", // The link to generate OG image, don't end with a slash
-  socialLink: "https://twitter.com/alkjop",
+  socialLink: "https://twitter.com/fiskja",
   seo: {
     keywords: ["Blog", "Website", "Notion"],
     googleSiteVerification: "", // Remove the value or replace it with your own google site verification code
