@@ -93,7 +93,7 @@ docker run -d --name nobelium -p 3000:3000 -e NOTION_PAGE_ID=${NOTION_PAGE_ID} g
 ```
 
 ## Roadmap
-
+y
 Check out our roadmap [here](https://craigary.notion.site/Public-Roadmap-89d184e51653445ab5b347e4efac079e)
 
 - [x] Better SEO
