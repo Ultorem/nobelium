@@ -101,7 +101,7 @@ Check out our roadmap [here](https://craigary.notion.site/Public-Roadmap-89d184e
 - [x] Open Graph support
 - [x] Switch to react-notion-x
 - [x] Sitemap
-- [ ] ...
+- [ ] ....
 
 ## Technical details
 
