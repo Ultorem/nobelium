@@ -1,0 +1,21 @@
+name: Vercel Deployment
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Run once every day at midnight UTC
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Deploy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: vercel --token $VERCEL_TOKEN --prod
